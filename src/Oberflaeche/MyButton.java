@@ -16,7 +16,7 @@ public class MyButton extends JButton{
 	 *
 	 */
 	public MyButton() {
-		setBackground(Color.WHITE);
+		setBackground(Color.RED);
 		setForeground(Color.BLACK);
 	}
 	
@@ -27,7 +27,7 @@ public class MyButton extends JButton{
 	 * @param name Text des Buttons
 	 */
 	public MyButton(String name) {
-		setBackground(Color.WHITE);
+		setBackground(Color.RED);
 		setForeground(Color.BLACK);
 		setText(name);
 	}
